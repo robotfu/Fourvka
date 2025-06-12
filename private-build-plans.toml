@@ -1,0 +1,28 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "fixed"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+  [buildPlans.IosevkaCustom.variants]
+  inherits = "ss17"
+
+    [buildPlans.IosevkaCustom.variants.design]
+    j = "diagonal-tailed-serifed"
+    l = "serifed-diagonal-tailed"
+    q = "top-cut-diagonal-tailed-serifless"
+    t = "diagonal-tailed-short-neck"
+
+[buildPlans.IosevkaCustom.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
