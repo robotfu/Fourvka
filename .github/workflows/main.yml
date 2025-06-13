@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build custom Iosevka
-      run: npm run build -- ttf::IosevkaCustom
+      run: npm run build -- contents::Fourvka
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
