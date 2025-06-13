@@ -1,4 +1,4 @@
-name: Build Iosevka
+name: Build Fourvka
 
 on:
   workflow_dispatch:
@@ -27,5 +27,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Iosevka-fonts
+        name: Fourvka-fonts
         path: dist/
