@@ -1,6 +1,6 @@
 [buildPlans.IosevkaCustom]
 family = "Iosevka Custom"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
@@ -10,10 +10,98 @@ noLigation = true
   inherits = "ss17"
 
     [buildPlans.IosevkaCustom.variants.design]
+    capital-a = "straight-top-serifed"
+    capital-h = "top-left-serifed"
+    capital-i = "serifed"
+    capital-j = "serifed-both-sides"
+    capital-m = "hanging-motion-serifed"
+    capital-n = "standard-motion-serifed"
+    capital-q = "crossing-baseline"
+    capital-t = "serifless"
+    capital-u = "toothed-motion-serifed"
+    capital-v = "straight-motion-serifed"
+    capital-w = "straight-motion-serifed"
+    capital-x = "straight-unilateral-motion-serifed"
+    capital-y = "straight-motion-serifed"
+    a = "double-storey-hook-inward-serifed-serifless"
+    b = "toothed-motion-serifed"
+    c = "unilateral-inward-serifed"
+    d = "toothed-top-serifed"
+    e = "flat-crossbar"
+    f = "extended"
+    g = "single-storey-flat-hook-serifed"
+    h = "straight-top-left-serifed"
+    i = "serifed-diagonal-tailed"
     j = "diagonal-tailed-serifed"
+    k = "straight-top-left-serifed"
     l = "serifed-diagonal-tailed"
+    m = "top-left-serifed"
+    n = "straight-top-left-serifed"
+    p = "eared-motion-serifed"
     q = "top-cut-diagonal-tailed-serifless"
-    t = "diagonal-tailed-short-neck"
+    r = "corner-hooked-top-serifed"
+    s = "unilateral-inward-serifed"
+    t = "hookless-asymmetric"
+    u = "tailed-motion-serifed"
+    v = "straight-motion-serifed"
+    w = "straight-motion-serifed"
+    x = "straight-unilateral-motion-serifed"
+    y = "straight-motion-serifed"
+    z = "straight-top-serifed"
+
+    [buildPlans.IosevkaCustom.variants.italic]
+    capital-a = "straight-top-serifed"
+    capital-c = "bilateral-inward-serifed"
+    capital-g = "toothless-corner-serifless-hookless"
+    capital-h = "top-left-serifed"
+    capital-i = "serifed"
+    capital-j = "serifed-both-sides"
+    capital-m = "hanging-motion-serifed"
+    capital-n = "asymmetric-motion-serifed"
+    capital-p = "open-motion-serifed"
+    capital-q = "vertical-crossing"
+    capital-t = "serifless"
+    capital-u = "toothed-motion-serifed"
+    capital-v = "straight-motion-serifed"
+    capital-w = "straight-motion-serifed"
+    capital-x = "straight-unilateral-motion-serifed"
+    capital-y = "straight-motion-serifed"
+    capital-z = "straight-top-serifed-with-crossbar"
+    a = "single-storey-top-cut-serifless"
+    b = "toothed-motion-serifed"
+    c = "unilateral-inward-serifed"
+    d = "toothed-top-serifed"
+    e = "flat-crossbar"
+    f = "diagonal-tailed"
+    g = "single-storey-flat-hook-serifed"
+    h = "straight-top-left-serifed"
+    i = "zshaped"
+    j = "diagonal-tailed-serifed"
+    k = "straight-top-left-serifed"
+    l = "serifed-diagonal-tailed"
+    m = "top-left-serifed"
+    n = "straight-top-left-serifed"
+    p = "eared-motion-serifed"
+    q = "top-cut-diagonal-tailed-serifless"
+    r = "corner-hooked-top-serifed"
+    s = "unilateral-inward-serifed"
+    t = "diagonal-tailed-asymmetric-short-neck2"
+    u = "tailed-motion-serifed"
+    v = "straight-motion-serifed"
+    w = "straight-motion-serifed"
+    x = "straight-unilateral-motion-serifed"
+    y = "straight-motion-serifed"
+    z = "straight-top-serifed-with-crossbar"
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
 [buildPlans.IosevkaCustom.slopes.Upright]
 angle = 0
