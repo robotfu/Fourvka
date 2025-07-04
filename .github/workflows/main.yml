@@ -1,4 +1,4 @@
-name: Build Fourvka
+name: Build AdwaitaMono
 
 on:
   workflow_dispatch:
@@ -22,10 +22,10 @@ jobs:
       run: npm install
 
     - name: Build custom Iosevka
-      run: npm run build -- ttf::Fourvka
+      run: npm run build -- ttf::AdwaitaMono
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Fourvka-fonts
+        name: AdwaitaMono-fonts
         path: dist/
